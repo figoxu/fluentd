@@ -7,6 +7,7 @@ gem update --system
 
 bundle install
 
+curl -sSL https://get.rvm.io | bash -s stable --ruby
 rvm install 3.0.0
 rvm use 3.0.0
 
